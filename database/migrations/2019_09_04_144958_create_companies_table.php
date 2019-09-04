@@ -19,7 +19,7 @@ class CreateCompaniesTable extends Migration
             /* DADOS DA EMPRESA
             ================================================== */
             $table->string('name'); ## NOME
-            $table->string('domai')->unique(); ## DOMÍNIO
+            $table->string('domain')->unique(); ## DOMÍNIO
             $table->string('image'); ## IMAGEM
             $table->string('bd_databse')->unique(); ## BANCO DE DADOS
             $table->string('bd_hostname'); ## NOME DO HOST
